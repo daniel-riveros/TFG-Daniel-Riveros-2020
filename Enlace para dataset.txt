@@ -1,0 +1,8 @@
+El dataset original pernetece a Kaggle, sin embargo este tiene realizada ya la división en carpetas con las
+diferentes clases y sobre todo las imágenes de test separadas una a una a mano.
+
+ORIGINAL:
+https://www.kaggle.com/c/dogs-vs-cats/data
+
+SEPARADO MIO:
+https://mega.nz/folder/k1hHwAia#88F-wZjzwPWoos1BcbwDsg
