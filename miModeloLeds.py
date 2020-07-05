@@ -15,7 +15,7 @@ led_gato=GPIO(GPIO.GPIO1,GPIO.OUT)
 
 # Nos indica cual es el porcentaje mínimo que tiene que tener una clase para pertenecer
 # realmente a ella, sino se marca como desconocido
-THRESHOLD = 0.5
+THRESHOLD = 0.4
 
 # Iniciamos el sensor (cámara) con la resolución de entrada para nuesta red
 sensor.reset()
