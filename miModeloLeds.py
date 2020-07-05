@@ -9,9 +9,9 @@ from Maix import GPIO
 
 # Definimos los GPIO a los pines para dar corriente a los leds
 fm.register(board_info.PIN9, fm.fpioa.GPIO0)
-led_perro=GPIO(GPIO.GPIO0,GPIO.OUT)
+led_gato=GPIO(GPIO.GPIO0,GPIO.OUT)
 fm.register(board_info.PIN10, fm.fpioa.GPIO1)
-led_gato=GPIO(GPIO.GPIO1,GPIO.OUT)
+led_perro=GPIO(GPIO.GPIO1,GPIO.OUT)
 
 # Nos indica cual es el porcentaje mínimo que tiene que tener una clase para pertenecer
 # realmente a ella, sino se marca como desconocido
@@ -55,11 +55,12 @@ def lightUpLed(classIdx):
     led_gato.value(0)
 
     if (classIdx == 0):
-        led_perro.value(1)
-        # LED PERRO = ROJO
-    if (classIdx == 1):
         led_gato.value(1)
-        # LED GATO = AZUL
+        # LED GATO = ROJO
+    if (classIdx == 1):
+        led_perro.value(1)
+        # LED PERRO = AZUL
+        
 
 
 
